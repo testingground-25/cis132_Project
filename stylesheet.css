@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Body */
+.all_body {
+    max-width: 80%;
+    margin: auto;
+}
+
+.index_b {
+    background-color: rgb(88, 117, 188);
+}
+
+.about_b { 
+    background-color: #7983cf;
+
+}
+
+.school_body {
+    background-color: rgb(78, 124, 78);
+}
+
+/* Header */
+header {
+    text-align: center;
+    border: 2px ridge black;
+    text-transform: uppercase;
+    background-color: rgb(200, 200, 200);
+   
+    
+
+}
+
+.h1_all {
+    color:rgb(93, 75, 48);
+   
+}
+
+.all_h1_margin {
+    margin: 10px 0 0;
+    line-height: 40px;
+}
+
+.h2_all {
+    margin: 0 0 10px;
+}
+/* Navigation */
+nav ul {
+    list-style-type: none;
+    background-color: rgb(255, 255, 255);
+    width: 300px;
+    overflow: hidden;
+   
+}
+
+ul li a {
+    float: left;
+}
+
+li a {
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    padding: 8px 16px;
+    
+
+}
+
+li a:hover {
+    background-color: rgb(220, 194, 194);
+    
+}
+
+/* Paragraphs */
+.all_par {
+    color: white;
+}
+
+
+/* Section */
+section {
+    color: white;
+    line-height: 20px;
+    padding: 10px;
+    column-count: 2;
+    column-gap: 35px;
+    column-rule: 2px solid rgb(118, 111, 111);
+}
+.index_section {
+    background-color: rgb(91, 79, 79);
+    color: white;
+}
+
+.about_section {
+    background-color: rgb(148, 112, 112);
+    color: white;
+}
+
+.school_section {
+    background-color: rgb(91, 79, 79);
+    color: white;
+}
+/* Images */
+.school_mainimg {
+    width: 100%
+    
+}
+
+
+
+/* Footer */
+footer {
+    border: 2px groove white;
+    padding:  0 10px 15px;
+    background-color: rgb(1, 1, 127);
+}
+
+footer a { 
+    color: rgb(255, 1, 1);
+}
+/* Lists */
+.all_lists {
+    list-style-position: inside;
+    line-height: 30px;
+    padding: 10px;
+    
+}
+
